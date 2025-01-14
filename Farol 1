@@ -1,0 +1,14 @@
+Inserir os Recursos Estáticos
+
+
+Campo Cor_Farol__c Fórmula Texto
+IF(ISPICKVAL(Farol__c, "Vermelho"), IMAGE("https://https://nelsonwiliansadvogados4--nwqa--c.visualforce.com/resource/1613065830000/AR_Red_Icon?", "Vermelho", 30, 30),
+IF(ISPICKVAL(Farol__c, "Verde"),IMAGE("https://https://nelsonwiliansadvogados4--nwqa--c.visualforce.com/resource/1613065830000/AR_Green_Icon?”, "Verde", 30, 30),
+IF(ISPICKVAL(Farol__c, "Amarelo"),IMAGE("https://https://nelsonwiliansadvogados4--nwqa--c.visualforce.com/resource/1613065830000/AR_Yellow_Icon?", "Amarelo", 30, 30),
+IMAGE("https://c.na75.visual.force.com/resource/1585855028000/Vermelho?", "Vermelho", 30, 30))))
+
+
+Campo Farol__c Lista de Opções
+Vermelho
+Amarelo
+Verde
