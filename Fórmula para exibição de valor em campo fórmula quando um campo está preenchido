@@ -1,0 +1,4 @@
+IF(
+ISBLANK(Observa_es_rea_t_cnica__c)
+,""
+,"VERIFICAR CAMPO: *Observações área técnica!*")
