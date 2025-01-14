@@ -1,0 +1,10 @@
+Inserir Recursos Estáticos no ambiente
+
+CASE(TEXT( Valida_farol_SLA__c ),
+"Em aberto", IMAGE("https://nelsonwiliansadvogados4--c.visualforce.com/resource/1614223942000/FarolVerde?", "Em aberto", 40, 100),
+"Atenção", IMAGE("https://nelsonwiliansadvogados4--c.documentforce.com/sfc/servlet.shepherd/version/renditionDownload?rendition=ORIGINAL_Png&versionId=0684x000000Bf4M&operationContext=CHATTER&contentId=05T4x0000064xWD", "Atenção", 40, 100),
+"Violado", IMAGE("https://nelsonwiliansadvogados4--c.visualforce.com/resource/1614223960000/FarolVermelho?", "Violado", 40, 100)," ")
+
+Lista de Opções
+Farol__c
+Opções: Verde, Amarelo e Vermelho
