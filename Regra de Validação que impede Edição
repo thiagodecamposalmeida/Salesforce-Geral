@@ -1,0 +1,9 @@
+AND(
+RecordType.DeveloperName = 'SolicitacaoContratoAssessoriaConsultoriaGeral',
+OR(
+ISPICKVAL(Fase__c, 'Elaboração de contrato'),
+OR(
+ISCHANGED(PercentualSobreGanhosEconomicosExito__c),
+ISCHANGED(EmpresaPossuiSistemaProprio__c),
+ISCHANGED(Apresentacao__c),
+))
